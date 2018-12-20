@@ -4,6 +4,8 @@
  */
 public class testGit {
     public static void main(String... args){
+        //无脑的注释
         System.out.println("I think");
+           
     }
 }
