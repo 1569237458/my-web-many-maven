@@ -8,6 +8,5 @@ public class testGit {
         System.out.println("I think");
         System.out.println(" How  are you ?");
         System.out.println("Hello World!");
-           
     }
 }
