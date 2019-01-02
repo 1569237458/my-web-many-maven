@@ -8,9 +8,15 @@
   <artifactId>web-many-maven</artifactId>
   <version>1.0-SNAPSHOT</version>
   <modules>
-    <module>web-service</module>
-    <module>web-dao</module>
-    <module>web-app</module>
+    <module>java-service</module>
+    <module>java-dao</module>
+    <module>java-web</module>
+      <module>java-config</module>
+      <module>java-utils</module>
+      <module>java-entity</module>
+      <module>java-dao-impl</module>
+      <module>java-service-impl</module>
+    <module>java-lib</module>
   </modules>
   <packaging>pom</packaging>
 
