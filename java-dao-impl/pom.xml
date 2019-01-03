@@ -9,7 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>web-dao-impl</artifactId>
+    <artifactId>java-dao-impl</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.niecl</groupId>
+            <artifactId>java-dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 
 </project>

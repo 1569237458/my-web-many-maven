@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>web-app</artifactId>
+    <artifactId>java-app</artifactId>
     <packaging>war</packaging>
 
     <name>web-app Maven Webapp</name>
@@ -28,17 +28,6 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.niecl</groupId>
-            <artifactId>java-service</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.niecl</groupId>
-            <artifactId>java-config</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
@@ -59,6 +48,24 @@
             <version>1.2.54</version>
         </dependency>
 
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.niecl</groupId>
+            <artifactId>java-controller</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.niecl</groupId>
+            <artifactId>java-config</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
