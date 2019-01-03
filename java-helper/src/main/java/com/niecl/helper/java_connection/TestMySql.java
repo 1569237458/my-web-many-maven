@@ -11,7 +11,7 @@ public class TestMySql {
     @Test
     public void getDataFromMySql(){
         MySql mySql=new MySql();
-        String result=mySql.getData("select name from book ","name");
+        String result=mySql.getData("SELECT `name` from book where book_id=1000","name");
         System.out.println(result);
     }
 }
