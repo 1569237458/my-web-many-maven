@@ -47,6 +47,7 @@
     <orderEntry type="module" module-name="java-entity" />
     <orderEntry type="module" module-name="java-service" />
     <orderEntry type="module" module-name="java-helper" />
+    <orderEntry type="library" name="Maven: com.niecl:java-dao:1.0-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="java-config" />
     <orderEntry type="library" name="Maven: org.springframework:spring-core:4.1.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />

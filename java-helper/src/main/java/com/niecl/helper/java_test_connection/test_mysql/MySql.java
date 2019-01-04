@@ -1,4 +1,4 @@
-package com.niecl.helper.java_connection;
+package com.niecl.helper.java_test_connection.test_mysql;
 
 import java.sql.*;
 
